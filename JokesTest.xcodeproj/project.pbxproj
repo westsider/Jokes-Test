@@ -12,6 +12,7 @@
 		0DB45A701F7A9F2B00FDDD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB45A6E1F7A9F2B00FDDD62 /* Main.storyboard */; };
 		0DB45A721F7A9F2B00FDDD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB45A711F7A9F2B00FDDD62 /* Assets.xcassets */; };
 		0DB45A751F7A9F2B00FDDD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB45A731F7A9F2B00FDDD62 /* LaunchScreen.storyboard */; };
+		0DB45A7D1F7AA39100FDDD62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB45A7C1F7AA39100FDDD62 /* Constants.swift */; };
 		518E3B3849B7162C4CD15E4A /* Pods_JokesTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D37DD4DF82DB842C950D /* Pods_JokesTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		0DB45A711F7A9F2B00FDDD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB45A741F7A9F2B00FDDD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DB45A761F7A9F2B00FDDD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB45A7C1F7AA39100FDDD62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		49408F74E67113E02979883A /* Pods-JokesTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokesTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-JokesTest/Pods-JokesTest.release.xcconfig"; sourceTree = "<group>"; };
 		4FC98A132257C287012BAE06 /* Pods-JokesTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokesTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JokesTest/Pods-JokesTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9042D37DD4DF82DB842C950D /* Pods_JokesTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JokesTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				0DB45A6E1F7A9F2B00FDDD62 /* Main.storyboard */,
+				0DB45A7C1F7AA39100FDDD62 /* Constants.swift */,
 				0DB45A6C1F7A9F2B00FDDD62 /* ViewController.swift */,
 				0DB45A711F7A9F2B00FDDD62 /* Assets.xcassets */,
 				0DB45A6A1F7A9F2B00FDDD62 /* AppDelegate.swift */,
@@ -214,6 +217,7 @@
 			files = (
 				0DB45A6D1F7A9F2B00FDDD62 /* ViewController.swift in Sources */,
 				0DB45A6B1F7A9F2B00FDDD62 /* AppDelegate.swift in Sources */,
+				0DB45A7D1F7AA39100FDDD62 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +383,7 @@
 				0DB45A7B1F7A9F2B00FDDD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
